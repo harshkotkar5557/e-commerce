@@ -2,6 +2,9 @@
 .filtering-option{
     margin: 0 auto;
 }
+.filtering-option .select-input{
+    cursor: pointer;
+}
 .prize-range{
     width: 90%;
     display: flex;
