@@ -46,6 +46,13 @@
     margin-top: 2rem;
     gap: 1rem;
     flex-wrap: wrap;
+    height: 85vh;
+    overflow: auto;
+    scroll-margin-top: 1rem;
+    padding: 1rem;
+}
+.product-container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }
 .shadow{
     width: 200px;
