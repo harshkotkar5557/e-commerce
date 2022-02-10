@@ -87,6 +87,16 @@
 }
 
 
+.home-page-img{
+    margin: 3rem auto 2rem auto;
+    width: 70%;
+    max-width: 70%;
+}
+
+
+
+
+
 @media(max-width:600px){
     .brandName{
         margin: 0.75rem;
