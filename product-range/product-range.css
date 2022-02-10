@@ -60,5 +60,9 @@
     padding-bottom: 0;
     margin: 0.5rem;
     margin: auto;
+    cursor: pointer;
+}
+.card_img img:hover{
+    transform: scale(1.1);
 }
 
