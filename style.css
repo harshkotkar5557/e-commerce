@@ -1,3 +1,4 @@
+@import url('./product-range/product-range.css');
 .gap-1rem{
     gap: 1rem;
 }
@@ -41,9 +42,25 @@
 .p-t-15{
     padding-top: 15px;
 }
+.border-none{
+    border: none;
+}
+.border-b-2{
+    border-bottom: 2px solid;
+}
+.text-center{
+    text-align: center;
+}
+
 
 .navbarOptions{
     flex-basis: 20%;
+}
+.navbar_std header{
+    position: fixed;
+    width: 100%;
+    background: white;
+    box-shadow: 0 0 3px 2px var(--lynxWhite);
 }
 
 .searchBar{
@@ -64,6 +81,26 @@
     font-size: 0.6rem;
     top: -6px;
 }
+.sidebar{
+    overflow: auto;
+    padding: 0.5rem;
+    flex: 1 0;
+    flex-basis: 230px;
+    box-shadow: 1px 2px 2px 1px #fdb8b83b;
+    max-width: 250px;
+}
+.sidebar::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.middleSection{
+    margin-top: 80px;
+    overflow: hidden;
+}
+.middleSection::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+
 .home-page-img{
     margin: 3rem auto 2rem auto;
     width: 70%;

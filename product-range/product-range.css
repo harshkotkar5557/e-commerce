@@ -1,0 +1,68 @@
+/* Product range*/
+.filtering-option{
+    margin: 0 auto;
+}
+.prize-range{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem auto;
+}
+.range{
+    color: var(--lightGrey);
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.progressbar{
+    height: 20px;
+    margin: 1rem 0;
+    border: 2px solid var(--lightGrey);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.progressbar .line{
+    width: 50%;
+    border-radius: 2px;
+    display: block;
+    margin: 5% -3% 5% 5%;
+    background: var(--lightGrey);
+    height: 4px;
+}
+.progress-line-dot{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--lightGrey);
+}
+
+.content-box{
+    padding: 2rem;
+    flex: 1;
+    background: var(--lynxWhite);
+}
+.product-container{
+    margin-top: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    height: 85vh;
+    overflow: auto;
+    scroll-margin-top: 1rem;
+    padding: 1rem;
+}
+.product-container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.shadow{
+    width: 200px;
+    min-width: 200px;
+    padding-bottom: 0;
+    margin: 0.5rem;
+    margin: auto;
+    cursor: pointer;
+}
+.card_img img:hover{
+    transform: scale(1.1);
+}
+
