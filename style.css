@@ -1,0 +1,105 @@
+@import url('./product-range/product-range.css');
+.gap-1rem{
+    gap: 1rem;
+}
+
+.m-1{
+    margin: 1rem;
+}
+.m-5{
+    margin: 0.5rem;
+}
+.p-1{
+    padding: 1rem;
+}
+.p-5{
+    padding: 0.5rem;
+}
+.p-l-5{
+    padding-left: 5px;
+}
+.p-l-10{
+    padding-left: 10px;
+}
+.p-l-15{
+    padding-left: 15px;
+}
+.p-r-5{
+    padding-right: 5px;
+}
+.p-r-10{
+    padding-right: 10px;
+}
+.p-r-15{
+    padding-right: 15px;
+}
+.p-t-5{
+    padding-top: 5px;
+}
+.p-t-10{
+    padding-top: 10px;
+}
+.p-t-15{
+    padding-top: 15px;
+}
+.border-none{
+    border: none;
+}
+.border-b-2{
+    border-bottom: 2px solid;
+}
+.text-center{
+    text-align: center;
+}
+
+
+.navbarOptions{
+    flex-basis: 20%;
+}
+
+.searchBar{
+    padding: 0 0.5em;
+    border: 1px solid;
+    border-radius: 2px;
+}
+.searchBar input{
+    cursor: pointer;
+    padding: 0.5em 0.5em;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+.notification-icon{
+    width: 0.4rem;
+    height: 0.5rem;
+    font-size: 0.6rem;
+    top: -6px;
+}
+.sidebar{
+    padding: 0.5rem;
+    flex: 1 0;
+    flex-basis: 230px;
+    box-shadow: 1px 2px 2px 1px #fdb8b83b;
+    max-width: 250px;
+}
+.middleSection{
+    height: fit-content;
+}
+
+
+@media(max-width:600px){
+    .brandName{
+        margin: 0.75rem;
+    }
+    .searchBar{
+        padding: 0 0.3em;
+        border: 1px solid;
+        border-radius: 2px;
+    }
+    .searchBar input{
+        width: 120px;
+        padding: 0.3em 0.3em;
+        font-size: 0.75rem;
+    }
+
+}
