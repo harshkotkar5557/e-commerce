@@ -1,5 +1,6 @@
 @import url('./product-range/product-range.css');
 @import url('./login/login.css');
+@import url('./signup/signup.css');
 .gap-1rem{
     gap: 1rem;
 }
@@ -59,6 +60,9 @@
 }
 .flex-wrap{
     flex-wrap: wrap;
+}
+.black-color{
+    color: var(--black);
 }
 
 
