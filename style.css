@@ -1,8 +1,11 @@
 @import url('./product-range/product-range.css');
+@import url('./login/login.css');
 .gap-1rem{
     gap: 1rem;
 }
-
+.m-2rem-t{
+    margin-top: 2rem;
+}
 .m-1{
     margin: 1rem;
 }
@@ -54,6 +57,9 @@
 .cursor-pointer{
     cursor: pointer;
 }
+.flex-wrap{
+    flex-wrap: wrap;
+}
 
 
 .navbarOptions{
@@ -68,6 +74,19 @@
     background: white;
     box-shadow: 0 0 3px 2px var(--lynxWhite);
     z-index: 99;
+}
+#login-btn{
+    color: var(--white);
+    font-size: 1.25rem;
+    background: var(--black);
+}
+.get-star-btn{
+    color: var(--white);
+    font-size: 1.25rem;
+    background: var(--black);
+}
+.get-star-btn:hover{
+    background-color: var(--grey)
 }
 
 .searchBar{
@@ -130,7 +149,7 @@
 
 
 
-@media(max-width:600px){
+@media(max-width:700px){
     .brandName{
         margin: 0.75rem;
     }
@@ -144,5 +163,14 @@
         padding: 0.3em 0.3em;
         font-size: 0.75rem;
     }
+    .sidebar{
+        display: none;
+    }
+
+}
+@media(max-width:400px){
+   body{
+       font-size: 12px;
+   }
 
 }
