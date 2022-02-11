@@ -28,14 +28,14 @@
     background: var(--lynxWhite);
 }
 .product-container{
-    margin-top: 2rem;
+    margin-top: 1rem;
     gap: 1rem;
     flex-wrap: wrap;
     height: 75vh;
     overflow: auto;
     scroll-margin-top: 1rem;
     scroll-margin-bottom: 1rem;
-    padding-bottom: 2rem;
+    padding: 2rem 0;
 }
 
 .product-container::-webkit-scrollbar { 
