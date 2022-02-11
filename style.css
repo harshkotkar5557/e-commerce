@@ -4,6 +4,9 @@
 .gap-1rem{
     gap: 1rem;
 }
+.fx-1-25p{
+    font-size: 1.25rem;
+}
 .m-2rem-t{
     margin-top: 2rem;
 }
@@ -66,9 +69,7 @@
 }
 
 
-.navbarOptions{
-    flex-basis: 20%;
-}
+
 .navbarOptions i{
     cursor: pointer;
 }
@@ -152,9 +153,6 @@
 @media(max-width:900px){
    .get-star-btn{
        transform: scale(0.8);
-   }
-   .navbarOptions{
-       flex-basis: 25%;
    }
    .home-page-img{
        width: 85%;

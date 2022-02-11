@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-around;
 }
-.range > input{
+.input-progress{
     width: 80%;
     margin: 0.5rem auto;
 }
