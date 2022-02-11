@@ -1,6 +1,7 @@
 @import url('./product-range/product-range.css');
 @import url('./login/login.css');
 @import url('./signup/signup.css');
+@import url('./wishlist/wishlist.css');
 .gap-1rem{
     gap: 1rem;
 }
@@ -72,6 +73,12 @@
 
 .navbarOptions i{
     cursor: pointer;
+}
+.navbarOptions .cart-badge:hover{
+    transform: scale(0.9);
+}
+.navbarOptions .cart-box:hover{
+    transform: scale(0.9);
 }
 .navbar_std header{
     position: fixed;
