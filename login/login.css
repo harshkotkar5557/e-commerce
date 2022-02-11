@@ -5,6 +5,7 @@
     padding: 3rem;
 }
 .login-input-box label{
+    font-size: 1rem;
     display: block;
 }
 .login-input-box input{

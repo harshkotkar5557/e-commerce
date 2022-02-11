@@ -146,7 +146,7 @@
 
 
 
-@media(max-width:600px){
+@media(max-width:700px){
     .brandName{
         margin: 0.75rem;
     }
@@ -160,5 +160,11 @@
         padding: 0.3em 0.3em;
         font-size: 0.75rem;
     }
+
+}
+@media(max-width:400px){
+   body{
+       font-size: 12px;
+   }
 
 }
