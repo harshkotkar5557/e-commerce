@@ -57,6 +57,9 @@
 .cursor-pointer{
     cursor: pointer;
 }
+.flex-wrap{
+    flex-wrap: wrap;
+}
 
 
 .navbarOptions{
@@ -159,6 +162,9 @@
         width: 120px;
         padding: 0.3em 0.3em;
         font-size: 0.75rem;
+    }
+    .sidebar{
+        display: none;
     }
 
 }
