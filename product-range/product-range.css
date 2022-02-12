@@ -35,7 +35,7 @@
     overflow: auto;
     scroll-margin-top: 1rem;
     scroll-margin-bottom: 1rem;
-    padding: 2rem 0;
+    padding: 1rem 0 2rem 0;
 }
 
 .product-container::-webkit-scrollbar { 
