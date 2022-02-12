@@ -2,6 +2,7 @@
 @import url('./login/login.css');
 @import url('./signup/signup.css');
 @import url('./wishlist/wishlist.css');
+@import url('./cart/cart.css');
 .gap-1rem{
     gap: 1rem;
 }
@@ -50,6 +51,23 @@
 .p-t-15{
     padding-top: 15px;
 }
+.p-t-5{
+    padding-top: 5px;
+}
+.p-t-10{
+    padding-top: 10px;
+}
+.p-b-15{
+    padding-bottom: 15px;
+}.p-b-5{
+    padding-bottom: 5px;
+}
+.p-b-10{
+    padding-bottom: 10px;
+}
+.p-b-15{
+    padding-bottom: 15px;
+}
 .border-none{
     border: none;
 }
@@ -67,6 +85,12 @@
 }
 .black-color{
     color: var(--black);
+}
+.object-cover{
+    object-fit: cover;
+}
+.w-60p{
+    width: 60%;
 }
 
 
@@ -197,11 +221,14 @@
         font-size: 1rem;
     }
 }
-@media(max-width:400px){
+@media(max-width:450px){
    body{
        font-size: 12px;
    }
    .get-star-btn{
        font-size: 0.8rem;
+    }
+    .cart-card-btn button{
+        font-size: 1rem;
     }
 }
