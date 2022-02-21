@@ -1,6 +1,6 @@
 <div align="center">
 # Mobby
-  An Ecommerce website for Books 
+  An Ecommerce website for Mobiles 
 </div>
 
 ## What is Mobby?
