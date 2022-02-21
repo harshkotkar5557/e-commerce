@@ -3,6 +3,7 @@
 @import url('./signup/signup.css');
 @import url('./wishlist/wishlist.css');
 @import url('./cart/cart.css');
+@import url('./user-profile/user-profile.css')
 .gap-1rem{
     gap: 1rem;
 }
