@@ -12,7 +12,7 @@
 	  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <nav class="navbar_std">
+   <nav class="navbar_std">
         <header class="d-flex justify-around align-center ">
             <div class="brandName"><a href="../index.html">Mobby</a></div>
             <div class="searchBar"><i class="fa fa-search"></i><input type="search" placeholder="search"></div>
@@ -28,17 +28,19 @@
                     </a>
                  </div>
                  
-                 <div class="d-flex gap-1rem cursor-pointer fx-1-25p cart-box">
-                    <div class="cart-badge ">
-                        <i class = "fa fa-cart-arrow-down fa-1x"></i>
-                        <div class="notification-icon flex-center">
-                           <span>1</span>
-                        </div>
-                        
-                     </div>
-                     <h5>cart</h5>
-                 </div>
-                 <div class="avatar sm m-5 cursor-pointer">
+                 <a href="../cart/cart.html">
+                    <div class="d-flex gap-1rem cursor-pointer fx-1-25p cart-box">
+                        <div class="cart-badge ">
+                            <i class = "fa fa-cart-arrow-down fa-1x black-color"></i>
+                            <div class="notification-icon flex-center">
+                               <span>1</span>
+                            </div>
+                            
+                         </div>
+                         <h5 class="black-color">cart</h5>
+                     </div>   
+                </a>
+                 <div class="avatar sm m-5">
                     <img src="../images/avatar-img.jpg" alt="avatar-img">
                 </div>
             </li>
@@ -49,7 +51,7 @@
     <section class="middleSection">
         <div class="content-box">
             <h3 class="text-center">My wishlist <span>( 3 )</span></h3>
-            <div class="product-container d-flex align-center justify-center">
+            <div class="product-container d-flex justify-center">
                 <div class="card shadow">
                     <div class="card_img position-relative" >
                         <figure >
