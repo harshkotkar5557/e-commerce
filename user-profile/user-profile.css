@@ -1,0 +1,70 @@
+.user-info-profile-container input[type ="radio"]{
+    display: none;
+}
+
+.profile-section,
+.address-section,
+.orders-section,
+.setting-section{
+    display: none;
+}
+
+#profile:checked~ .sub-type-content .profile-section,
+#address:checked~ .sub-type-content .address-section,
+#orders:checked~ .sub-type-content .orders-section,
+#setting:checked~ .sub-type-content .setting-section{
+    display: block;
+}
+
+#profile:checked~ .sub-type-labels .profile,
+#address:checked~ .sub-type-labels .address,
+#orders:checked~ .sub-type-labels .orders,
+#setting:checked~ .sub-type-labels .setting{
+    background: var(--black);
+    color: white;
+    border-radius: 5px;
+}
+.text-grey{
+    color: grey;
+}
+
+.user-info-profile-container{
+    min-height: 450px;
+    max-height: 65vh;
+}
+.order-summary-container{
+    overflow: auto;
+    height: 40vh;
+ 
+}
+/* .order-summary-container::-webkit-scrollbar{
+    display: none;
+} */
+
+.order-summary-card{
+    box-shadow: none;
+    border: 1px solid;
+    scroll-padding-top: 1rem;
+}
+.order-summary-card .font-size-small{
+    font-size: 0.7rem;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
