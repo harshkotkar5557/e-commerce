@@ -3,7 +3,6 @@
 @import url('./signup/signup.css');
 @import url('./wishlist/wishlist.css');
 @import url('./cart/cart.css');
-@import url('./user-profile/user-profile.css');
 .gap-1rem{
     gap: 1rem;
 }
@@ -186,6 +185,19 @@
     position: absolute;
     top: 20px;
     right: 5%;
+}
+
+.hambar-navbar-option{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    border: 2px solid;
+    flex-direction: column;
+    padding: 1rem;
+    right: 1rem;
+    z-index: 999;
+    background: white;
+    border-radius: 5px;
 }
 
 @media(max-width:900px){
